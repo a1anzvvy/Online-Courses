@@ -1,0 +1,10 @@
+close all;
+clc;
+clear;
+
+fid=fopen('/home/xinshuo/tmp/10703hw1/save/training/train_pre.log','r');
+InputText=textscan(fid,'%s','delimiter',' ');
+InputText = InputText{1};
+
+for i = 1
+loss = 

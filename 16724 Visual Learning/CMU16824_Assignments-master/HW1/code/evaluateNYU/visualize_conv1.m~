@@ -1,0 +1,18 @@
+close all;
+clear;
+clc;
+
+conv1_list = dir('conv1_pretrain');
+number_ros = 
+% image_id = 523;
+% predict = imread(sprintf('/home/xinshuo/dataset/NYU/res/rgb_%06d.jpg', image_id));
+% original = imread(sprintf('/home/xinshuo/dataset/NYU/croptest/rgb_%06d.jpg', image_id));
+
+% predict = imresize(predict, [128, 128]);
+% original = imresize(original, [128, 128]);
+% concate = [predict, original];
+
+figure;
+imshow(concate);
+% figure;
+% imshow(original);
